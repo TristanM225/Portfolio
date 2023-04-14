@@ -1,0 +1,182 @@
+:root{
+
+    
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+  position: relative;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 20px;
+  background-color: #f88102;
+  color: #4F4846;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
+}
+
+h1 {
+  font-size: larger;
+  font-family: monospace;
+  margin: 5%;
+}
+p {
+  padding-bottom: 100px;
+  margin: 10px;
+  color: navy;
+}
+
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  padding: 60px 0;
+}
+
+section {
+
+  margin: 0 1.5%;
+  width: 100%;
+}
+
+aside {
+  float: left;
+  margin: 0%;
+  width: 30%;
+  background-color: #b9c6ae;
+  
+}
+
+li {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: none;
+  color: navy;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: gold;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: #266150;
+}
+
+header {
+  text-align: center;
+  border-bottom: 10px solid gold;
+  color: #FDF8F5;
+  margin-bottom: 20px;
+}
+
+footer {
+  position: absolute;
+  margin-bottom: 10;
+  bottom: 0;
+  border-bottom: 10px solid #4F4846;
+  color: #FDF8F5;    
+}
+
+.yellow{
+  color: gold;
+}
+
+.blue{
+  color: navy;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center{
+  text-align: center;
+  align-content: center;
+}
+.rectangle {
+  background-color: gold;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  }
+
+
+  .center {
+    display: block;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+  }
+
+.project-image{
+  width: 100%;
+}
+
+.zoom {
+  padding: 0px;
+  transition: transform .2s;
+  width: 100%;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
+}
+
+.products {
+  flex: 4;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.card {
+  border-style: solid;
+  border-width: 15px;
+  border-radius: 10px;
+  padding: 10px;
+  flex: 0 0 400px;
+  transform: rotate(10deg);
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 20px;
+}
+
+
+/* Save this for later to make reactive*/
+@media screen and (max-width: 768px) {
+  main,
+  nav,
+  aside,
+  footer {
+    flex-direction: column;
+  }
+}
