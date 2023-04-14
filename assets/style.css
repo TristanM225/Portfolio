@@ -1,7 +1,3 @@
-:root{
-
-    
-}
 
 
 * {
@@ -49,13 +45,6 @@ section {
   width: 100%;
 }
 
-aside {
-  float: left;
-  margin: 0%;
-  width: 30%;
-  background-color: #b9c6ae;
-  
-}
 
 li {
   display: inline;
@@ -117,6 +106,8 @@ footer {
   text-align: center;
   align-content: center;
 }
+
+/* the rectangle for my name */
 .rectangle {
   background-color: gold;
   padding: 10px 20px 10px 20px;
@@ -124,7 +115,8 @@ footer {
   text-align: center;
   box-shadow: 10px 10px 5px #aaaaaa;
   }
-
+/* Would like to create a triforce with the About me, work and contact
+ as the three triangles*/
 
   .center {
     display: block;
@@ -133,11 +125,11 @@ footer {
     margin-right: auto;
     width: 10%;
   }
-
+/* controls the sizes of the image so they're all the same */
 .project-image{
   width: 100%;
 }
-
+/* creates the zoom out effect for the project images */
 .zoom {
   padding: 0px;
   transition: transform .2s;
@@ -171,7 +163,7 @@ footer {
 }
 
 
-/* Save this for later to make reactive*/
+/* Makes the website reactive*/
 @media screen and (max-width: 768px) {
   main,
   nav,
