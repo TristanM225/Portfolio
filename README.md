@@ -12,9 +12,10 @@ This is my portfolio site where I will be adding all my worked on projects and d
 
 
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
+## Screenshots / Links
 ![Screenshot of project](./assets/images/screenshot.JPG)
+Links to my deployed page! 
+https://tristanm225.github.io/Portfolio/ 
 
 
 

@@ -6,7 +6,7 @@
 }
 
 
-
+/* formats for different sections of the page including colors, centering etc.*/
 body {
   position: relative;
   font-family: "Goudy Bookletter 1911", sans-serif;
@@ -85,7 +85,7 @@ footer {
   border-bottom: 10px solid #4F4846;
   color: #FDF8F5;    
 }
-
+/* Colors needed to change a few stuborn texts */
 .yellow{
   color: gold;
 }
@@ -93,15 +93,15 @@ footer {
 .blue{
   color: navy;
 }
-
+/* aligns text to the right*/
 .text-right {
     text-align: right;
 }
-
+/* Aligns text to the left*/
 .text-left {
   text-align: left;
 }
-
+/* Centers text */
 .text-center{
   text-align: center;
   align-content: center;
@@ -117,7 +117,7 @@ footer {
   }
 /* Would like to create a triforce with the About me, work and contact
  as the three triangles*/
-
+/* centers image*/
   .center {
     display: block;
     align-content: center;
