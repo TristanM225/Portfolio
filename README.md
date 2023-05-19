@@ -51,4 +51,4 @@ Learned how to add a image to the title bar from WBdocs https://www.w3docs.com/s
 Took the zoom function from W3 https://www.w3schools.com/howto/howto_css_zoom_hover.asp 
 
 ## Contact
-Created by TristanM225 Reachout to me by email! TristanM225@gmail.com
+Created by TristanM225 Reach out to me by email! TristanM225@gmail.com
