@@ -45,6 +45,27 @@ section {
   width: 100%;
 }
 
+aside {
+text-align: right;
+color: #266150;
+background-color: #FDF8F5;
+padding: 14px 16px;
+width: 200px;
+
+
+}
+
+@media all {
+  .aside1 {order: 1;}
+}
+
+.content {
+  color:#f88102;
+  display: flex;
+  background-color: #266150;
+  margin-right: 300px;
+}
+
 
 li {
   display: inline;
