@@ -13,9 +13,9 @@ This is my portfolio site where I will be adding all my worked on projects and d
 
 
 ## Screenshots / Links
-![Screenshot of project](./assets/images/screenshot.JPG)
-Links to my deployed page! 
-https://tristanm225.github.io/Portfolio/ 
+- This project rocks
+
+![Image of ECOM code](/assets/images/ECOMpic.JPG)
 
 
 
