@@ -15,7 +15,7 @@ This is my portfolio site where I will be adding all my worked on projects and d
 ## Screenshots / Links
 - This project rocks
 
-![Image of ECOM code](/assets/images/ECOMpic.JPG)
+
 
 
 
